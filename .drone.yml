@@ -1,3 +1,3 @@
-image: nginx
+image: dockerfile/nginx
 script:
-  - systemctl start nginx
+  - echo hello world
